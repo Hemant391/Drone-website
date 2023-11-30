@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1340px) {
+    .nav-list {
+        flex-direction: column;
+
+    }
+
+    .navbar {
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 400px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav {
+        height: 72px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+    .logo img {
+        width: 130%;
+        border: solid white;
+        border-radius: 20%;
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        color: black;
+        font-size: 21px;
+        /* margin: 16px 50px; */
+    }
+
+    .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        max-width: 58%;
+        margin: auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        height: 100%;
+        flex-direction: column-reverse;
+        max-width: 100%;
+        text-align: center;
+    }
+    .form {
+        /* justify-content: center; */
+        /* text-align: center; */
+        /* margin: 0 371px; */
+        max-width: 70%;
+        margin: 7px auto;
+    }
+    .name {
+        width: 733px;
+        padding: 5px;
+        /* border: solid black; */
+        border-radius: 4%;
+        /* margin: 11px 51px; */
+        max-width: 75%;
+        margin: 7px auto;
+    }
+    .form textarea {
+        width: auto;
+        height: 76px;
+        /* margin: 5px 50px; */
+        max-width: 100%;
+        border: solid black;
+        margin: 5px 0px;
+    }
+    .maincontent{
+        flex-direction: column-reverse;
+        padding-top: 22px;
+        max-width: 100%;
+        margin: 0px 14px;
+    }
+
+
+
+
+
+}
